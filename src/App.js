@@ -13,7 +13,7 @@ import Maincontent from './components/main/Maincontent'
 
 
 const getInitialTheme = () =>{
-  const savedTheme =storage.getItem('theme')
+  const savedTheme = storage.getItem('theme')
   return savedTheme? JSON.parse(savedTheme) : "light"
 }
 
