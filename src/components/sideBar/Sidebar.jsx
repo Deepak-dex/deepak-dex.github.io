@@ -34,9 +34,9 @@ function Sidebar(){
 
             <ResumeBtn href="#"><Icons src={tie} alt="tie"/>Download Resume</ResumeBtn>
             <SocialLinks>
-                <a href="https://github.com/Deepak-dex" target="_blank"><Icons src={github} alt="github" /></a>
-                <a href="https://www.linkedin.com/in/deepak-tiwari-6b13971b1" target="_blank"><Icons src={linkedin} alt="linkedin"/></a>
-                <a href="mailto: f12894343@gmail.com" target="_blank"><Icons src={email} alt="email"/></a>
+                <a href="https://github.com/Deepak-dex" target="_blank" rel="noreferrer"><Icons src={github} alt="github" /></a>
+                <a href="https://www.linkedin.com/in/deepak-tiwari-6b13971b1" target="_blank" rel="noreferrer"><Icons src={linkedin} alt="linkedin"/></a>
+                <a href="mailto: f12894343@gmail.com" target="_blank" rel="noreferrer"><Icons src={email} alt="email"/></a>
             </SocialLinks>
 
             <Info>
@@ -44,7 +44,7 @@ function Sidebar(){
                 <div>f12894343@gmail.com</div>
                 <div>8369118960</div>
             </Info>
-        <EmailBtn href="mailto: f12894343@gmail.com" target="_blank">email me</EmailBtn>
+        <EmailBtn href="mailto: f12894343@gmail.com" target="_blank" rel="noreferrer">email me</EmailBtn>
         </SideBar>
     );
 }

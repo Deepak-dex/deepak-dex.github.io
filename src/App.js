@@ -48,7 +48,7 @@ function App() {
   return (
     <ThemeProvider theme = {theme}>
       <GlobalStyles />
-      <ThemeButton onClick = {e => setThemeMode(themeMode == "dark" ? "light" : "dark" )} ><img src={sun} /></ThemeButton>
+      <ThemeButton onClick = {e => setThemeMode(themeMode === "dark" ? "light" : "dark" )} > <img src={sun} alt="sun"/> </ThemeButton>
       <MainContainer>
         <Sidebar/>
         <Maincontent/>

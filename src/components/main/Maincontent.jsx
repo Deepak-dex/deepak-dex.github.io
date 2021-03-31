@@ -25,7 +25,7 @@ function Maincontent(){
             <Route path="/" exact component={About}/>
             <Route path="/resume" exact component={Resume}/>
             <Route path="/projects" exact component={Projects}/>
-            <Redirect path="/"/>
+            <Redirect to="/"/>
             </Switch>
             </Router>
         </MainContent>
