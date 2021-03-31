@@ -14,7 +14,7 @@ font-size: 2rem;
 font-weight: 700;
 color: ${(props) => props.theme.mode === "dark" ? '#17a2b8' : '#354358'};
 border-bottom: 4px solid ;
-border-image: linear-gradient(to right, #d38312 0%, #a83279 100%);
+border-image: linear-gradient(to right, #4b4844 0%, #a83279 100%);
 border-image-slice: 9;
 `;
 
@@ -22,13 +22,17 @@ const NavBtn = styled.span`
 &{
 cursor: pointer;
 font-size: 1.3rem;
-margin-right:20px;
+margin-right: 1.2rem;
 color: ${(props) => props.theme.mode === "dark" ? '#17a2b8' : '#354358'};
 }
 &:hover{
 background: linear-gradient(to right, #d38312 0%, #a83279 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+}
+@media (max-width: 420px){
+    margin-right: 0px;
+    margin-left: 10px;
 }
 `;
 

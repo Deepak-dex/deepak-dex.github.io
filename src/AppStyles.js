@@ -7,13 +7,13 @@ export const MainContainer = styled.div`
   width: min(80em,90%);
   height: max(40em,80vh);
   margin: auto;
-  padding: 10px 10px;
+  padding: 0px 0px;
   @media (max-width: 1236px){
     justify-content: center;
     height: 100%;
     grid-template-columns: 1fr;
   }
-  `;
+`;
 
 export const ThemeButton = styled.span`
 position:fixed;

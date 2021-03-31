@@ -14,7 +14,8 @@ import Maincontent from './components/main/Maincontent'
 
 const getInitialTheme = () =>{
   const savedTheme = storage.getItem('theme')
-  return savedTheme? JSON.parse(savedTheme) : "light"
+  console.log(savedTheme)
+  return savedTheme? savedTheme : "light"
 }
 
 function App() {
@@ -42,7 +43,7 @@ function App() {
 
   useEffect(
     () => {
-      storage.setItem('theme',JSON.stringify(themeMode))
+      storage.setItem('theme',themeMode)
     },[themeMode])
 
   return (
