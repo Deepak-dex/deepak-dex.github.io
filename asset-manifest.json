@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.95ce3051.chunk.js",
-    "main.js.map": "/static/js/main.95ce3051.chunk.js.map",
+    "main.js": "/static/js/main.9b2eb148.chunk.js",
+    "main.js.map": "/static/js/main.9b2eb148.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d0605945.js",
     "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
     "static/js/2.83715a7a.chunk.js": "/static/js/2.83715a7a.chunk.js",
@@ -20,7 +20,6 @@
     "static/media/github.88f03c5b.svg": "/static/media/github.88f03c5b.svg",
     "static/media/hardware_store.6c954f4c.jpg": "/static/media/hardware_store.6c954f4c.jpg",
     "static/media/html.b88715f6.svg": "/static/media/html.b88715f6.svg",
-    "static/media/icons8-sun.bf29d6d9.gif": "/static/media/icons8-sun.bf29d6d9.gif",
     "static/media/js.608fcbd7.svg": "/static/media/js.608fcbd7.svg",
     "static/media/kotlin.e1722629.svg": "/static/media/kotlin.e1722629.svg",
     "static/media/linkedin.69cde4b1.svg": "/static/media/linkedin.69cde4b1.svg",
@@ -31,12 +30,13 @@
     "static/media/python.cdffb0d5.svg": "/static/media/python.cdffb0d5.svg",
     "static/media/react-native.24d96f4a.svg": "/static/media/react-native.24d96f4a.svg",
     "static/media/repair.2c4f4278.svg": "/static/media/repair.2c4f4278.svg",
+    "static/media/sun.bce6f0d9.gif": "/static/media/sun.bce6f0d9.gif",
     "static/media/tie.c88466ab.svg": "/static/media/tie.c88466ab.svg",
     "static/media/tweetme.a896de53.PNG": "/static/media/tweetme.a896de53.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.d0605945.js",
     "static/js/2.83715a7a.chunk.js",
-    "static/js/main.95ce3051.chunk.js"
+    "static/js/main.9b2eb148.chunk.js"
   ]
 }
