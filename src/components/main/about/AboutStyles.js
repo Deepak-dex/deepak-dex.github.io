@@ -15,6 +15,10 @@ export const OfferingWrapper = styled.div`
 background-color: ${(props) => props.theme.mode === "dark"? props.theme.dark.bgtertiary : props.theme.light.bgtertiary}; 
 margin: 0em -2em;
 padding: 1em 1em 2em 1em;
+
+@media (max-width: 420px){
+    margin: 0em -1em;
+}
 `;
 
 export const Title = styled.h6`

@@ -16,12 +16,13 @@ export const MainContainer = styled.div`
 `;
 
 export const ThemeButton = styled.span`
-position:fixed;
+position: absolute;
 top: 2em;
 right: 4em;
 border-radius: 50%;
 height: 3.5em;
 width: 3.5em;
+background-color: ${(props) => props.theme.mode === 'dark'? props.theme.dark.bgtertiary : props.theme.light.bgtertiary};
 box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 cursor: pointer;
 z-index:100;
@@ -29,6 +30,6 @@ z-index:100;
   img{
     height:100%;
     border-radius: 50%;
-    ${(props) => props.theme.mode === 'dark'? 'filter: invert(85%);':''}
+    ${(props) => props.theme.mode === 'dark'? 'filter: invert();':''}
   }
 `;  

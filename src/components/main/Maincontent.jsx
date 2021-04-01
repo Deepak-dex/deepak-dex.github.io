@@ -15,7 +15,6 @@ padding: 2em 2em;
 box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 @media (max-width: 420px){
     padding: 2em 1em;
-    overflow-x: hidden;
 }
 `;
 

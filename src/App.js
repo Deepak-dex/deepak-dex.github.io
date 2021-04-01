@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { ThemeProvider} from 'styled-components'
 import storage from 'local-storage-fallback'
 
-import sun from './assets/icons/icons8-sun.gif'
+import sun from './assets/icons/sun.gif'
 
 import GlobalStyles from './globalStyles'
 import {MainContainer, ThemeButton} from './AppStyles'
